@@ -6,6 +6,9 @@ var float DefaultPortalSize;
 // Debug
 //var vector NewProjSpawnOffset;
 
+simulated function SuperMaxOutAmmo()
+{}
+
 simulated function float ChargeBar()
 {
 	return FMin(1, FMax(FireMode[0].HoldTime, FireMode[1].HoldTime) * 0.25);

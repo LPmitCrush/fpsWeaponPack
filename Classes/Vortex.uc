@@ -6,6 +6,9 @@ Class Vortex extends Weapon
 
 #exec TEXTURE IMPORT FILE="Tex\VortexIcon.tga" NAME="Vortex" GROUP="XHairs"
 
+simulated function SuperMaxOutAmmo()
+{}
+
 var protected VortexWatcher VortexWatcher;
 var VortexDummyProj DummyProj;
 

@@ -4,6 +4,9 @@
 class NuclearShockRifle extends ShockRifle
     config(fpsWeaponPack);
 
+simulated function SuperMaxOutAmmo()
+{}
+
 defaultproperties
 {
     FireModeClass(0)=Class'XWeapons.ShockBeamFire'

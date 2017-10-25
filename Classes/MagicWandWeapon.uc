@@ -4,6 +4,9 @@
 class MagicWandWeapon extends Weapon
     config(fpsWeaponPack);
 
+simulated function SuperMaxOutAmmo()
+{}
+
 #exec AUDIO IMPORT FILE="Snds\weaponload.wav" NAME="weaponload"
 #EXEC OBJ LOAD FILE=InterfaceContent.utx
 #exec OBJ LOAD FILE="fpsWepAnim.ukx"

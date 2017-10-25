@@ -1,6 +1,7 @@
 class Flamer extends flakcannon; 
-//=============================================================================
 
+simulated function SuperMaxOutAmmo()
+{}
 
 defaultproperties
 {

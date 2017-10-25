@@ -3,6 +3,9 @@
 //=============================================================================
 class Teslagun extends Minigun;
 
+simulated function SuperMaxOutAmmo()
+{}
+
 defaultproperties
 {
      FireModeClass(0)=Class'fpsWeaponPack.TeslaFire'

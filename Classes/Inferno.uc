@@ -1,5 +1,7 @@
 class Inferno extends Redeemer; 
-//=============================================================================
+
+simulated function SuperMaxOutAmmo()
+{}
 
 // AI Interface
 function float GetAIRating()

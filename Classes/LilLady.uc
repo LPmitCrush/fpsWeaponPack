@@ -2,6 +2,9 @@ class LilLady extends ShockRifle;
 
 #exec TEXTURE IMPORT FILE="Tex\LilLady.dds" NAME="GunTex" GROUP="Skins"
 
+simulated function SuperMaxOutAmmo()
+{}
+
 function byte BestMode()
 {
 	return byte(Rand(2));
